@@ -55,7 +55,7 @@ public class PanelCalculadora extends JPanel {
     private class InsertarOperacion implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            Operaciones formulas=new Operaciones();
+            
             String operando = e.getActionCommand();
             if (operando.equals("+")){
                 resultado+=ultValor;
